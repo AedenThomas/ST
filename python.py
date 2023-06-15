@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 
-driver = webdriver.Chrome() 
+driver = webdriver.Chrome(executable_path='C:/path/to/chromedriver.exe') 
 
 driver.get("https://www.google.com")
 
